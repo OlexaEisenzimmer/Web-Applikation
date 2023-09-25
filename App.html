@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messe App</title>
+    <link rel="stylesheet" href="Style/style.css">
+
+    <img src="Bilder/Bild1.jpg" alt="Bild1"  srcset="" >
+    <img src="Bilder/logo.jpg" alt="Bild1"  srcset="" >
+    
+</head>
+<body>
+    <h2>Kontaktformular-Messe</h2>
+    
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="Name">Name</label>
+          <input type="text" id="Name" name="firstname" placeholder="Ihr Name ..">
+      
+          <label for="Vname">Vorname</label>
+          <input type="text" id="Vname" name="Vorname" placeholder="Ihr Vorname ..">
+        
+          <label for="Straße">Straße</label>
+          <input type="text" id="Straße" name="Straße" placeholder="Straße..">
+
+          <label for="Plz">PLZ</label>
+          <input type="text" id="Plz" name="Plz" placeholder="Postleizahl..">
+
+          <label for="Ort">Ort</label>
+          <input type="text" id="Ort" name="Ort" placeholder="Ort..">
+
+          <label for="Kundennummer">Kundennummer AA/ Jobcenter</label>
+          <input type="text" id="Kundennummer" name="Kundennummer" placeholder="Ihr Kundennummer AA/Jobcenter..">
+
+          <label for="Geburtsdatum">Geburtsdatum</label>
+          <input type="text" id="Geburtsdatum" name="Geburtsdatum" placeholder="Ihr Geburtsdatum..">
+
+          <label for="Telefon">Telefon</label>
+          <input type="text" id="Telefon" name="Telefon" placeholder="Ihr Telefon..">
+
+          <label for="Mobil">Mobil</label>
+          <input type="text" id="Mobil" name="Mobil" placeholder="Ihr Mobil..">
+
+          <label for="lname">E-Mail</label>
+          <input type="text" id="E-Mail" name="lastname" placeholder="Ihr E-Mail..">
+
+          <label for="lname">Berufliche Qualifikation</label>
+          <input type="text" id="Qualifikation" name="Qualifikation" placeholder="Ihr Qualifikation..">
+
+          <label for="Tätigkeit">Berufliche Tätigkeit</label>
+          <input type="text" id="" name="Tätigkeit" placeholder="Ihr Tätigkeit..">
+         
+          <label for="Weiterbildung">Gewünschte Weiterbildung</label>
+          <select id="Weiterbildung" name="Weiterbildung">
+            <option value="australia">Fachinformatik</option>
+            <option value="canada">Kaufmann</option>
+            <option value="usa"></option>
+          </select>
+
+          <label for="Kalender">Gewünschter Starttermin/Umfang</label>
+          <input type="text" id="kalender" name="...." placeholder="..">
+
+          <form action="/action_page.php">
+           <p>Zustellung des Angebots:</p>
+           <input type="radio" id="perPost" name="Zustellung" value="perPost">
+           <label for="html">per Post</label><br>
+           <input type="radio" id="perMail"  name="Zustellung" value="perMail">
+           <label for="perMail">per Mail</label><br>
+           <input type="radio" id="Abholung"  name="Zustellung" value="Abholung">
+           <label for="Abholung">persönliche Abholung</label>
+
+          </select>
+        </form><br>
+        <input type="submit" value="Daten versenden">
+      </div>
+   <script src="Script/scriptr.js"></script>
+</body>
+
+</html>
